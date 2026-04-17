@@ -58,7 +58,12 @@ export default function PersonalInfoScreen() {
                 <Controller
                     control={control}
                     name="email"
-                    rules={{ required: "El email es obligatorio" }}
+                    rules={{ required: "El email es obligatorio",
+                        pattern: {
+                            value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                            message: "El email no es válido",
+                        }
+                    }}
                     render={({ field: { onChange, value } }) => (
                         <InputField
                             label="Email *"
@@ -79,7 +84,7 @@ export default function PersonalInfoScreen() {
                             value: /^[0-9]+$/,
                             message: "Solo se permiten números"
                         }
-                     }}
+                    }}
                     render={({ field: { onChange, value } }) => (
                         <InputField
                             label="Teléfono *"

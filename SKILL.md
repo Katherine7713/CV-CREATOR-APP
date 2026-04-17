@@ -20,6 +20,7 @@ Se aplicó el estilo institucional de la Escuela Politécnica Nacional (EPN) en 
 - Creación de componentes personalizados para la selección de fechas y opciones
 - Aplicación de estilos institucionales en el diseño de la interfaz de usuario
 - Navegación con `expo-router` para una experiencia de usuario fluida y eficiente
+
 ## 5. Skills Aplicados (Blandas)
 - Resolución de problemas para implementar soluciones eficientes en la validación de formularios y diseño de componentes
 - Adaptabilidad para aprender y aplicar nuevas tecnologías como `react-hook-form` y componentes personalizados en el desarrollo de la aplicación.
